@@ -26,6 +26,7 @@ export default function App() {
 
   // 📤 Gửi tin nhắn
   const send = async () => {
+    console.log("Gửi tin nhắn:", input);
     if (!input || !currentChat) return;
 
     const userMsg = { role: "user", text: input };

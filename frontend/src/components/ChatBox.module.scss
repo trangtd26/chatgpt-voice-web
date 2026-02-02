@@ -1,0 +1,33 @@
+.chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.inputArea {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border-top: 1px solid rgba(255,255,255,0.03);
+  align-items: center;
+}
+
+.inputField {
+  flex: 1;
+}
+
+.messageUser {
+  text-align: right;
+  margin-bottom: 12px;
+}
+
+.messageAi {
+  text-align: left;
+  margin-bottom: 12px;
+}

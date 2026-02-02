@@ -1,0 +1,21 @@
+.sidebar {
+  width: 300px;
+  padding: 16px;
+}
+
+.newChatBtn {
+  margin-bottom: 12px;
+}
+
+.searchField {
+  margin-bottom: 12px;
+}
+
+.chatItem {
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.chatItemActive {
+  background: linear-gradient(90deg, rgba(123,97,255,0.14), rgba(0,230,160,0.06));
+}
